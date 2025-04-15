@@ -11,6 +11,8 @@ EVAL_SET_PATH = "eval_set_shared.json"
 st.markdown("""
 ### 👥 Instrucciones para evaluadores
 
+Puedes basarte en tu conocimiento previo o utilizar recursos como [Glottolog](https://glottolog.org/), [Wikipedia](https://www.wikipedia.org/) o [Wikidata](https://www.wikidata.org/) para contrastar la información mientras evalúas.
+
 Evalúa la calidad de las respuestas generadas por modelos de recuperación aumentada con grafos (GraphRAG).
 
 1. **Ingresa tu nombre o alias** abajo. Esto identificará tus respuestas.
