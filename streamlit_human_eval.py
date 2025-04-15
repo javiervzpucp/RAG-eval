@@ -2,7 +2,9 @@ import streamlit as st
 import pandas as pd
 import os
 
-st.set_page_config(page_title="GraphRAG Human Evaluation", layout="centered")
+st.title("🧠 GraphRAG Human Evaluation")
+st.markdown("**🌐 Esta evaluación se realiza sobre las respuestas generadas por la app [RAG-Sudamérica](https://javiervzpucp-rag-sa.hf.space)**")
+
 STORAGE_PATH = "human_eval_results.csv"
 EVAL_SET_PATH = "eval_set_shared.json"
 
