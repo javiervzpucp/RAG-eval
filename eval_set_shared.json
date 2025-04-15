@@ -1,102 +1,551 @@
 [
   {
-    "question":"What do we know about the language Imbabura Highland Quichua?",
-    "method":"Standard",
-    "answer":"Imbabura Highland Quichua is spoken in Ecuador and belongs to the Quechua family."
-  },
-  {
-    "question":"Where is the language Yanesha spoken?",
-    "method":"Hybrid",
-    "answer":"Yanesha is an Arawakan language spoken in Peru."
-  },
-  {
-    "question":"Tell me about the language Kakataibo.",
+    "question":"List some related languages to Cashinahua.",
     "method":"GraphSAGE",
-    "answer":"Kakataibo is a Panoan language found in Peru, related to Cashibo-Cacataibo."
+    "answer":"Related languages to Cashinahua include Brazilian Kashinawa, Peruvian Kashinawa, Juru\u00e1 Kapanawa (extinct), Paranawa, Tarauac\u00e1 Kashinawa (extinct), Tuxinawa, Yami, Guan\u00e1 (Paraguay), Epona, Laya, Anga, Toba.",
+    "entities_extracted":[
+      "paranawa",
+      "peruvian kashinawa",
+      "paraguay",
+      "toba",
+      "brazilian kashinawa",
+      "yami",
+      "jurua kapanawa",
+      "laya",
+      "tarauaca kashinawa",
+      "epona",
+      "cashinahua",
+      "tuxinawa",
+      "guana"
+    ],
+    "expected_entities":[
+      "pano nawa",
+      "yora",
+      "cashinawa of the tarauaca river",
+      "headwaters pano",
+      "mainline pano",
+      "yaminahua",
+      "cashinahua",
+      "panoan",
+      "pano-tacanan"
+    ],
+    "precision":0.154,
+    "recall":0.222,
+    "f1":0.182,
+    "hallucination_score":11,
+    "in_context":true,
+    "time":0.47
   },
   {
-    "question":"Sample Q4",
-    "method":"Standard",
-    "answer":"Sample answer 4"
+    "question":"List some related languages to Cayubaba.",
+    "method":"Hybrid",
+    "answer":"Cashibo-Cacataibo and Cuiba are related languages to Cayubaba. These languages belong to the same language family, Panoan, but are spoken in different countries: Cashibo-Cacataibo in Peru and Cuiba in Colombia and Venezuela. Both Cashibo-Cacataibo and Cuiba have dialects and a significant number of monolingual speakers. Cayubaba, Cashibo-Cacataibo, and Cuiba share similarities with each other, though Cashibo-Cacataibo and Cuiba also share similarities with other Guahiban languages.",
+    "entities_extracted":[
+      "cayubaba",
+      "cuiba",
+      "cashibo",
+      "cashibo-cacataibo",
+      "venezuela",
+      "panoan",
+      "guahiban",
+      "peru",
+      "colombia"
+    ],
+    "expected_entities":[
+      "baure",
+      "cayubaba",
+      "canichana",
+      "chacobo"
+    ],
+    "precision":0.111,
+    "recall":0.25,
+    "f1":0.154,
+    "hallucination_score":8,
+    "in_context":true,
+    "time":0.65
   },
   {
-    "question":"Sample Q5",
-    "method":"Standard",
-    "answer":"Sample answer 5"
+    "question":"Tell me about Maijiki.",
+    "method":"GraphSAGE",
+    "answer":"Maijiki, also known as Coto or Oregon, is a moribund Tucanoan language spoken in Peru with approximately 70 speakers. It is a language of the Northern Maihiki family, which also includes southern Maihiki and another unnamed language. It shares significant similarities with Mati and Mori languages, with a similarity score of 0.52. It is located at (-2.86315, -72.4926) in Peru.",
+    "entities_extracted":[
+      "maihiki",
+      "oregon",
+      "peru",
+      "tucanoan",
+      "mori",
+      "maijiki",
+      "coto",
+      "mati"
+    ],
+    "expected_entities":[
+      "macaguaje",
+      "morike",
+      "napo tucanoan",
+      "yuruti",
+      "tucanoan",
+      "maijiki",
+      "western tucanoan"
+    ],
+    "precision":0.375,
+    "recall":0.429,
+    "f1":0.4,
+    "hallucination_score":5,
+    "in_context":true,
+    "time":0.59
   },
   {
-    "question":"Sample Q6",
-    "method":"Standard",
-    "answer":"Sample answer 6"
+    "question":"How many speakers does Desano have?",
+    "method":"Hybrid",
+    "answer":"Desano has approximately 6000 speakers, as recorded in the data provided.",
+    "entities_extracted":[
+      "desano"
+    ],
+    "expected_entities":[
+      "eastern tucanoan",
+      "desano",
+      "western eastern tucanoan",
+      "cubeo-desano",
+      "yupua-siriano-desano",
+      "tucano",
+      "siriano-desano",
+      "siriano",
+      "tucanoan",
+      "carapana",
+      "deni"
+    ],
+    "precision":1.0,
+    "recall":0.091,
+    "f1":0.167,
+    "hallucination_score":0,
+    "in_context":true,
+    "time":0.48
   },
   {
-    "question":"Sample Q7",
-    "method":"Standard",
-    "answer":"Sample answer 7"
+    "question":"Where is Cayubaba spoken?",
+    "method":"Hybrid",
+    "answer":"Cayubaba is spoken in the Beni region of Bolivia, west of the Mamor\u00e9 River, north of the Santa Ana Yacuma.",
+    "entities_extracted":[
+      "cayubaba",
+      "the mamore river",
+      "beni",
+      "bolivia",
+      "the santa ana yacuma"
+    ],
+    "expected_entities":[
+      "baure",
+      "cayubaba",
+      "canichana",
+      "chacobo"
+    ],
+    "precision":0.2,
+    "recall":0.25,
+    "f1":0.222,
+    "hallucination_score":4,
+    "in_context":true,
+    "time":0.56
   },
   {
-    "question":"Sample Q8",
-    "method":"Standard",
-    "answer":"Sample answer 8"
+    "question":"Where is Yurut\u00ed spoken?",
+    "method":"GraphSAGE",
+    "answer":"Colombia and Brazil",
+    "entities_extracted":[
+      "colombia",
+      "brazil"
+    ],
+    "expected_entities":[
+      "eastern tucanoan",
+      "eastern eastern tucanoan",
+      "pisamira-yuruti",
+      "yahuna",
+      "yuracare",
+      "wayoro",
+      "eastern eastern tucanoan ii",
+      "tucanoan",
+      "maijiki",
+      "tuyuca-yuruti",
+      "yuruti"
+    ],
+    "precision":0.0,
+    "recall":0.0,
+    "f1":0.0,
+    "hallucination_score":2,
+    "in_context":true,
+    "time":0.52
   },
   {
-    "question":"Sample Q9",
-    "method":"Standard",
-    "answer":"Sample answer 9"
+    "question":"Which languages are related to Cayubaba?",
+    "method":"GraphSAGE",
+    "answer":"Cayubaba is semantically similar to Cani1243 and Chac1251, according to the provided data. These appear to be unknown languages, but based on the similarity scores, they might be other moribund or lesser-known languages from the same language family or region. However, without further context or information, it's challenging to determine the exact relationship.",
+    "entities_extracted":[
+      "chac1251",
+      "cani1243",
+      "cayubaba"
+    ],
+    "expected_entities":[
+      "baure",
+      "cayubaba",
+      "canichana",
+      "chacobo"
+    ],
+    "precision":0.333,
+    "recall":0.25,
+    "f1":0.286,
+    "hallucination_score":0,
+    "in_context":true,
+    "time":0.44
   },
   {
-    "question":"Sample Q10",
+    "question":"Where is Desano spoken?",
     "method":"Standard",
-    "answer":"Sample answer 10"
+    "answer":"Desano is spoken primarily in northwest Brazil and southern Colombia. (wikidata_countries: Colombia)",
+    "entities_extracted":[
+      "desano",
+      "colombia",
+      "brazil"
+    ],
+    "expected_entities":[
+      "eastern tucanoan",
+      "desano",
+      "western eastern tucanoan",
+      "cubeo-desano",
+      "yupua-siriano-desano",
+      "tucano",
+      "siriano-desano",
+      "siriano",
+      "tucanoan",
+      "carapana",
+      "deni"
+    ],
+    "precision":0.333,
+    "recall":0.091,
+    "f1":0.143,
+    "hallucination_score":2,
+    "in_context":true,
+    "time":0.77
   },
   {
-    "question":"Sample Q11",
-    "method":"Standard",
-    "answer":"Sample answer 11"
+    "question":"Which languages are related to Cayubaba?",
+    "method":"Hybrid",
+    "answer":"Based on the data provided, Cayubaba is semantically similar to Canichana (Chacobo) and Chiquito (Canichana), with similarity scores of 0.52933 and 0.52978 respectively. Both Canichana and Chiquito are also indigenous languages of Bolivia. However, it's important to note that these relations are based on phonetic similarities and not on a comprehensive study of their linguistic structures. Always consult a linguistic expert for accurate information.",
+    "entities_extracted":[
+      "cayubaba",
+      "chiquito",
+      "canichana",
+      "bolivia",
+      "chiquito (canichana",
+      "0.52978"
+    ],
+    "expected_entities":[
+      "baure",
+      "cayubaba",
+      "canichana",
+      "chacobo"
+    ],
+    "precision":0.5,
+    "recall":0.75,
+    "f1":0.6,
+    "hallucination_score":3,
+    "in_context":true,
+    "time":0.71
   },
   {
-    "question":"Sample Q12",
+    "question":"How many speakers does Cashinahua have?",
     "method":"Standard",
-    "answer":"Sample answer 12"
+    "answer":"1600 (based on the given data)",
+    "entities_extracted":[
+
+    ],
+    "expected_entities":[
+      "pano nawa",
+      "yora",
+      "cashinawa of the tarauaca river",
+      "headwaters pano",
+      "mainline pano",
+      "yaminahua",
+      "cashinahua",
+      "panoan",
+      "pano-tacanan"
+    ],
+    "precision":0.0,
+    "recall":0.0,
+    "f1":0.0,
+    "hallucination_score":0,
+    "in_context":true,
+    "time":0.52
   },
   {
-    "question":"Sample Q13",
-    "method":"Standard",
-    "answer":"Sample answer 13"
+    "question":"List some related languages to Imbabura Highland Quichua.",
+    "method":"Hybrid",
+    "answer":"Imbabura Highland Quichua is related to other varieties of Quechua, particularly South Chimborazo Highland Quichua and North Chimborazo Highland Quichua, as well as Loja Quichua and Salasaca Quichua (in terms of semantic similarity). It also belongs to the Colonial Quechuan and Ecuadoran Quechuan families and is semantically similar to Chibcha, which suggests a connection to those languages as well. For more detailed information, refer to the provided resources.",
+    "entities_extracted":[
+      "quechua",
+      "salasaca quichua",
+      "north chimborazo highland",
+      "ecuadoran quechuan",
+      "loja quichua",
+      "imbabura highland quichua",
+      "chibcha",
+      "south chimborazo"
+    ],
+    "expected_entities":[
+      "quechuan",
+      "calderon highland quichua",
+      "imbabura-colombia-oriente quechua",
+      "imbabura highland quichua",
+      "ecuadorian quechua b",
+      "bolivar-north chimborazo highland quichua",
+      "colombia-ecuador quechua",
+      "canar-azuay-south chimborazo highland quichua"
+    ],
+    "precision":0.625,
+    "recall":0.625,
+    "f1":0.625,
+    "hallucination_score":3,
+    "in_context":true,
+    "time":0.47
   },
   {
-    "question":"Sample Q14",
+    "question":"Tell me about Guaja-Kaapor-Ava.",
     "method":"Standard",
-    "answer":"Sample answer 14"
+    "answer":"Guaja-Kaapor-Ava refers to a group of related Tupi-Guarani languages: Guaj\u00e1 (or Aw\u00e1), Av\u00e1-Canoeiro, and potentially Apiak\u00e1, as they belong to the same linguistic family (Tupi) and the Aw\u00e1-Canoeiro family. Guaj\u00e1, spoken in Brazil, is geographically isolated and has monolingual speakers. Av\u00e1-Canoeiro, also spoken in Brazil, is divided into two dialects and has monolingual speakers as well. Apiak\u00e1, a recently extinct Tupi language, has been replaced by Portuguese. The relationships between these languages are characterized by a similarity score of approximately 0.5.",
+    "entities_extracted":[
+      "portuguese",
+      "ava-canoeiro",
+      "tupi-guarani",
+      "brazil",
+      "guaja-kaapor-ava",
+      "tupi",
+      "guaja"
+    ],
+    "expected_entities":[
+      "guaja-kaapor-ava",
+      "ava-canoeiro",
+      "urubu-kaapor",
+      "aure y aura",
+      "tacunyape",
+      "guaja"
+    ],
+    "precision":0.429,
+    "recall":0.5,
+    "f1":0.462,
+    "hallucination_score":4,
+    "in_context":true,
+    "time":0.78
   },
   {
-    "question":"Sample Q15",
+    "question":"Tell me about Imbabura Highland Quichua.",
     "method":"Standard",
-    "answer":"Sample answer 15"
+    "answer":"Imbabura Highland Quichua is not explicitly mentioned in the provided data. However, it seems to be a variant of Quichua (also spelled as Kichwa) given the similarity with the Colombian Inga dialect, which belongs to the same Quichua family (http:\/\/example.org\/lang\/quec1387). The Imbabura province is located in Ecuador, so we can infer that Imbabura Highland Quichua might be a dialect spoken in that region, although more specific information is needed to confirm this.",
+    "entities_extracted":[
+      "quichua",
+      "ecuador",
+      "kichwa",
+      "imbabura highland quichua",
+      "colombian",
+      "imbabura"
+    ],
+    "expected_entities":[
+      "quechuan",
+      "calderon highland quichua",
+      "imbabura-colombia-oriente quechua",
+      "imbabura highland quichua",
+      "ecuadorian quechua b",
+      "bolivar-north chimborazo highland quichua",
+      "colombia-ecuador quechua",
+      "canar-azuay-south chimborazo highland quichua"
+    ],
+    "precision":0.667,
+    "recall":0.5,
+    "f1":0.572,
+    "hallucination_score":2,
+    "in_context":false,
+    "time":0.57
   },
   {
-    "question":"Sample Q16",
+    "question":"List some related languages to Desano.",
     "method":"Standard",
-    "answer":"Sample answer 16"
+    "answer":"Desano is related to other Tucanoan languages such as Siriono (siri1280) and Yur\u00fama (tuca1252) due to their similar family affiliation (belongsToFamily: http:\/\/example.org\/lang\/tuca1253). Additionally, it shares some semantic similarity with Siriono and a language denoted by siri1274, although specific data is not provided for the latter.",
+    "entities_extracted":[
+      "desano",
+      "siri1274",
+      "tuca1252",
+      "siriono",
+      "tucanoan",
+      "yuruma",
+      "siri1280"
+    ],
+    "expected_entities":[
+      "eastern tucanoan",
+      "desano",
+      "western eastern tucanoan",
+      "cubeo-desano",
+      "yupua-siriano-desano",
+      "tucano",
+      "siriano-desano",
+      "siriano",
+      "tucanoan",
+      "carapana",
+      "deni"
+    ],
+    "precision":0.286,
+    "recall":0.182,
+    "f1":0.222,
+    "hallucination_score":2,
+    "in_context":true,
+    "time":0.49
   },
   {
-    "question":"Sample Q17",
+    "question":"What do we know about the language Yurut\u00ed?",
     "method":"Standard",
-    "answer":"Sample answer 17"
+    "answer":"Yurut\u00ed, also known as Wajiara, is a Tucanoan language spoken by approximately 1,200 speakers in Colombia and Brazil. It is classified as belonging to the Tucanoan family and has lexical similarities with the Ticuna language according to some linguists. A small amount of data was collected in the 19th century, and it is assumed that some Yuri speakers may still exist among uncontacted communities in the R\u00edo Pur\u00e9 region of Brazil.",
+    "entities_extracted":[
+      "wajiara",
+      "brazil",
+      "tucanoan",
+      "yuri",
+      "yuruti",
+      "colombia"
+    ],
+    "expected_entities":[
+      "eastern tucanoan",
+      "eastern eastern tucanoan",
+      "pisamira-yuruti",
+      "yahuna",
+      "yuracare",
+      "wayoro",
+      "eastern eastern tucanoan ii",
+      "tucanoan",
+      "maijiki",
+      "tuyuca-yuruti",
+      "yuruti"
+    ],
+    "precision":0.333,
+    "recall":0.182,
+    "f1":0.235,
+    "hallucination_score":4,
+    "in_context":true,
+    "time":0.74
   },
   {
-    "question":"Sample Q18",
+    "question":"How many speakers does Yurut\u00ed have?",
     "method":"Standard",
-    "answer":"Sample answer 18"
+    "answer":"The Yurut\u00ed language has approximately 1,200 speakers.",
+    "entities_extracted":[
+      "yuruti"
+    ],
+    "expected_entities":[
+      "eastern tucanoan",
+      "eastern eastern tucanoan",
+      "pisamira-yuruti",
+      "yahuna",
+      "yuracare",
+      "wayoro",
+      "eastern eastern tucanoan ii",
+      "tucanoan",
+      "maijiki",
+      "tuyuca-yuruti",
+      "yuruti"
+    ],
+    "precision":1.0,
+    "recall":0.091,
+    "f1":0.167,
+    "hallucination_score":0,
+    "in_context":true,
+    "time":0.46
   },
   {
-    "question":"Sample Q19",
-    "method":"Standard",
-    "answer":"Sample answer 19"
+    "question":"Where is Cashinahua spoken?",
+    "method":"GraphSAGE",
+    "answer":"Cashinahua is spoken in Peru.",
+    "entities_extracted":[
+      "peru",
+      "cashinahua"
+    ],
+    "expected_entities":[
+      "pano nawa",
+      "yora",
+      "cashinawa of the tarauaca river",
+      "headwaters pano",
+      "mainline pano",
+      "yaminahua",
+      "cashinahua",
+      "panoan",
+      "pano-tacanan"
+    ],
+    "precision":0.5,
+    "recall":0.111,
+    "f1":0.182,
+    "hallucination_score":1,
+    "in_context":true,
+    "time":0.66
   },
   {
-    "question":"Sample Q20",
-    "method":"Standard",
-    "answer":"Sample answer 20"
+    "question":"What family does Cayubaba belong to?",
+    "method":"GraphSAGE",
+    "answer":"Cayubaba belongs to the unspecified language family according to the provided data.",
+    "entities_extracted":[
+      "cayubaba"
+    ],
+    "expected_entities":[
+      "baure",
+      "cayubaba",
+      "canichana",
+      "chacobo"
+    ],
+    "precision":1.0,
+    "recall":0.25,
+    "f1":0.4,
+    "hallucination_score":0,
+    "in_context":true,
+    "time":0.43
+  },
+  {
+    "question":"How many speakers does Cayubaba have?",
+    "method":"GraphSAGE",
+    "answer":"Cayubaba has 794 speakers, according to the available data.",
+    "entities_extracted":[
+      "cayubaba"
+    ],
+    "expected_entities":[
+      "baure",
+      "cayubaba",
+      "canichana",
+      "chacobo"
+    ],
+    "precision":1.0,
+    "recall":0.25,
+    "f1":0.4,
+    "hallucination_score":0,
+    "in_context":true,
+    "time":0.62
+  },
+  {
+    "question":"Tell me about Imbabura Highland Quichua.",
+    "method":"Hybrid",
+    "answer":"Imbabura Highland Quichua is not explicitly mentioned in the provided data. However, it is geographically and linguistically close to the Chibuleo, South Chimborazo, and North Chimborazo Highland Quichua. The linguistic similarity scores suggest it might share similarities with these languages. Further research would be necessary to confirm its specific characteristics and relation to the Chimborazo Highland Quichua dialects.",
+    "entities_extracted":[
+      "south chimborazo",
+      "the chimborazo highland quichua",
+      "imbabura highland quichua",
+      "chibuleo",
+      "north chimborazo"
+    ],
+    "expected_entities":[
+      "quechuan",
+      "calderon highland quichua",
+      "imbabura-colombia-oriente quechua",
+      "imbabura highland quichua",
+      "ecuadorian quechua b",
+      "bolivar-north chimborazo highland quichua",
+      "colombia-ecuador quechua",
+      "canar-azuay-south chimborazo highland quichua"
+    ],
+    "precision":0.6,
+    "recall":0.375,
+    "f1":0.462,
+    "hallucination_score":2,
+    "in_context":true,
+    "time":0.41
   }
 ]
