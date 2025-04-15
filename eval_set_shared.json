@@ -1,0 +1,102 @@
+[
+  {
+    "question":"What do we know about the language Imbabura Highland Quichua?",
+    "method":"Standard",
+    "answer":"Imbabura Highland Quichua is spoken in Ecuador and belongs to the Quechua family."
+  },
+  {
+    "question":"Where is the language Yanesha spoken?",
+    "method":"Hybrid",
+    "answer":"Yanesha is an Arawakan language spoken in Peru."
+  },
+  {
+    "question":"Tell me about the language Kakataibo.",
+    "method":"GraphSAGE",
+    "answer":"Kakataibo is a Panoan language found in Peru, related to Cashibo-Cacataibo."
+  },
+  {
+    "question":"Sample Q4",
+    "method":"Standard",
+    "answer":"Sample answer 4"
+  },
+  {
+    "question":"Sample Q5",
+    "method":"Standard",
+    "answer":"Sample answer 5"
+  },
+  {
+    "question":"Sample Q6",
+    "method":"Standard",
+    "answer":"Sample answer 6"
+  },
+  {
+    "question":"Sample Q7",
+    "method":"Standard",
+    "answer":"Sample answer 7"
+  },
+  {
+    "question":"Sample Q8",
+    "method":"Standard",
+    "answer":"Sample answer 8"
+  },
+  {
+    "question":"Sample Q9",
+    "method":"Standard",
+    "answer":"Sample answer 9"
+  },
+  {
+    "question":"Sample Q10",
+    "method":"Standard",
+    "answer":"Sample answer 10"
+  },
+  {
+    "question":"Sample Q11",
+    "method":"Standard",
+    "answer":"Sample answer 11"
+  },
+  {
+    "question":"Sample Q12",
+    "method":"Standard",
+    "answer":"Sample answer 12"
+  },
+  {
+    "question":"Sample Q13",
+    "method":"Standard",
+    "answer":"Sample answer 13"
+  },
+  {
+    "question":"Sample Q14",
+    "method":"Standard",
+    "answer":"Sample answer 14"
+  },
+  {
+    "question":"Sample Q15",
+    "method":"Standard",
+    "answer":"Sample answer 15"
+  },
+  {
+    "question":"Sample Q16",
+    "method":"Standard",
+    "answer":"Sample answer 16"
+  },
+  {
+    "question":"Sample Q17",
+    "method":"Standard",
+    "answer":"Sample answer 17"
+  },
+  {
+    "question":"Sample Q18",
+    "method":"Standard",
+    "answer":"Sample answer 18"
+  },
+  {
+    "question":"Sample Q19",
+    "method":"Standard",
+    "answer":"Sample answer 19"
+  },
+  {
+    "question":"Sample Q20",
+    "method":"Standard",
+    "answer":"Sample answer 20"
+  }
+]
